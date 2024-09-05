@@ -49,12 +49,13 @@ public class union_array {
         while(i<n && j<m){
             if(arr1[i]<=arr2[j]){
 
+                // here it is checking the list is empty and the last inserted element
                 if (Union.size() == 0 || Union.get(Union.size()-1) != arr1[i]) {
                     Union.add(arr1[i]);
                     i++;
                 }
 
-            } else // case 3
+            } else
             {
                 if (Union.size() == 0 || Union.get(Union.size()-1) != arr2[j])
                     Union.add(arr2[j]);
