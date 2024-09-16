@@ -104,7 +104,7 @@ public class second_largest_smallest {
 
     public static void main(String[] args) {
 
-        int[]arr = {20,80,76,191,89};
+            int[]arr = {20,80,76,191,89};
         second_larg_small_sorting(arr);
         second_large_small_method2(arr);
         /* for optimized solution */

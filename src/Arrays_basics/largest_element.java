@@ -11,7 +11,7 @@ public class largest_element {
 
 
 
-        /* T.C : O(nlogn) S.C : O(n) */
+        /* T.C : O(n logn) S.C : O(n) */
     }
 
     /* using recursive approach - Optimized solution */
